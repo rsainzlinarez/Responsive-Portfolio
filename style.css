@@ -3,31 +3,35 @@ body{
 background-image:url(./assets/images/background.jpg);
 background-size: 100%;
 
-
-
-
 }
 .navigation-bar{
 background-color: white;
 margin:0;
 display:flex;
-
-
 }
 
 h1{
 background-color: #71cfb3;
 color: white;
+margin-left:25px;
+margin-top:10px;
+
 }
 .justify-content-end{
-margin-left: 850px;
-position:relative;
+margin-left: 750px;
+position: relative;
 margin-right:0px;
-
-
+margin-top:10px;
 
 }
  
 .nav-link {
 color: gray;
+}
+
+.portfolio{
+    height: 100px;
+    width:100%;
+   background-color: white;
+
 }
