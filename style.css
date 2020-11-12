@@ -1,10 +1,23 @@
+
+body{
+background-image:url(./assets/images/background.jpg);
+background-size: 100%;
+
+
+
+
+}
 .navigation-bar{
-background-color: black;
+background-color: white;
 margin:0;
 display:flex;
 
 
+}
 
+h1{
+background-color: #71cfb3;
+color: white;
 }
 .justify-content-end{
 margin-left: 850px;
@@ -12,4 +25,9 @@ position:relative;
 margin-right:0px;
 
 
+
+}
+ 
+.nav-link {
+color: gray;
 }
