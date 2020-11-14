@@ -74,17 +74,31 @@ margin-left: 50px;
     margin-left: 30%;
     margin-top: 10%;
     margin-right:30%;
-    ;
+    font-weight: bold;
     padding: 0;
     
  
   }
+  .form-title{
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+  }
 
   @media(max-width:450px){
  form{
- font-size: 10px;
+ font-size: 15px;
  
  }
+
+ .form-title{
+  font-size: 25px;
+  font-weight: bold;
+  
+  
+}
+
 
 
   }
