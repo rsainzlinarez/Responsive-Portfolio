@@ -9,10 +9,12 @@ background-size: cover;
 }
 
 }
-/* Modifies the brand name */
+/* Modifies the navigation bar section */
 .navbar-brand{
 background-color:rgb(110, 110, 216);
 font-size: 15px;
+margin-left: 50px;
+font-size: 30px;
 
 
 }
@@ -38,6 +40,11 @@ word-wrap: break-word;
 .col{
 font-size: 50px;
 font-weight: 500;
+}
+
+/* code for About me Section */
+.row-cols-2{
+margin-left: 50px;
 }
 
 /* modifies position of the image */
