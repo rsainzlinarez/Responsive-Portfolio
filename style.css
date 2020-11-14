@@ -58,8 +58,10 @@ padding-left: 0;
 
 /* Modifies photo and bio description section */
 .row-cols-2{
-margin-left: 50px;
+margin-left: 35%;
+margin-top:2%;
 }
+
 
 
 /* ------------------------------------------------------------------------------------------------------- */
@@ -72,7 +74,7 @@ margin-left: 50px;
     padding-left: 50px;
     background-color: none;
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right:30%;
     font-weight: bold;
     padding: 0;
