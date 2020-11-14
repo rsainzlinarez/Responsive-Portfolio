@@ -2,7 +2,7 @@
 
 /* Modifies background style for index, portfolio, and contact html files*/
 body{
-background-color:rgb(79, 157, 221);
+
 background-image: url(./assets/images/background.jpg);
 background-repeat: no-repeat;
 background-position: center;
@@ -16,7 +16,7 @@ background-size: cover;
 
 
 .navbar-brand{
-background-color:rgb(167, 218, 248);
+background-color:rgb(196, 198, 199);
 font-size: 15px;
 margin-left: 35px;
 font-size: 30px;
@@ -43,8 +43,6 @@ color:black;
 /* Modifies style fo index html file body "main-content" */
 
 
-
-
 .cold-md-4{
 float: left;
 word-wrap: break-word;
@@ -63,3 +61,30 @@ padding-left: 0;
 margin-left: 50px;
 }
 
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* Modifies contact file */
+
+
+/* Mofidies contact form */
+  .form-section{
+    width: 40%;
+    padding-left: 50px;
+    background-color: none;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-right:30%;
+    ;
+    padding: 0;
+    
+ 
+  }
+
+  @media(max-width:450px){
+ form{
+ font-size: 10px;
+ 
+ }
+
+
+  }
