@@ -1,4 +1,6 @@
 
+
+/* Modifies background style for index, portfolio, and contact html files*/
 body{
 background-color:rgb(79, 157, 221);
 background-image: url(./assets/images/background.jpg);
@@ -6,115 +8,58 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 
-}
 
 }
-/* Modifies the navigation bar section */
+/* ------------------------------------------------------------------------------------------- */
+
+/* Modifies index, portfolio, and contact style for html files */
+
+
 .navbar-brand{
-background-color:rgb(110, 110, 216);
+background-color:rgb(167, 218, 248);
 font-size: 15px;
-margin-left: 50px;
+margin-left: 35px;
 font-size: 30px;
-
-
+color:white;
+  
 }
-.bg-light{
 
+.bg-light{
 color:blue;
 }
 
 
-
-
-/* code for the navigation links */
+/* Modifies navigation links menu */
 .nav-item{
 text-align: center;
 
+
 }
+.nav-link{
+color:black;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* Modifies style fo index html file body "main-content" */
+
+
+
 
 .cold-md-4{
 float: left;
 word-wrap: break-word;
 
 }
+
+/* Modifies "About Me" title */
 .col{
 font-size: 50px;
 font-weight: 500;
+padding-left: 0;
 }
 
-/* code for About me Section */
+/* Modifies photo and bio description section */
 .row-cols-2{
 margin-left: 50px;
 }
-
-/* modifies position of the image */
-
-
-/* Index.html css code */
-/* Profile Image controls */
-
-
-
-/* -------------------------------------------------------------- */
-/* Previous page */
-
-/* body{
-background-image:url(./assets/images/background.jpg);
-background-size: 100%;
-
-
-
-}
-h1{
-    
-    background-color: rgb(82, 241, 215);
-    color: white;
-    
-
-}
-
-.row{
- margin-left:10px;
- margin-right:10px;
-background-color:white;
-}
-.col-xs1{
-
-    
-}
-.col-xs2{
-    color:red;
-    margin-left:auto;
-    background-color: ;
-
-}
-
-@media only screen and (max-width: 250px) {
-    .col-xs2{
-        background:gray;
-        position:fixed;
-        height:50vh;
-        width:100%;
-        margin-left:auto;
-        flex-direction: column;
-    
-    } 
-body{
-
-    background-size: 1000px 1000px;
-    
-    
-}
-
-h1{
-    font-size: 20px;
-}
-
-.row{
-    font-size:10px;
-
-} */
-
-
-
 
