@@ -45,15 +45,24 @@ color:black;
 
 /* Modifies "Portfolio" title div*/
 .portfolio{
-  margin-left: 235px;
+  margin-left:-20px;
+  margin-right: 20px;
+  
+  font-size: 50px;
   font-weight: bolder;
+
+  padding: 0;
   
 }
-.col{
- padding: 10px;
+
+/* Modifies Portfolio images section */
+.portfolio-images{
+ padding: 20px;
  
  
 }
+
+/* modifies the images included in the portfolio images section */
 .image{
   height: 250px;
   width: 250px;
