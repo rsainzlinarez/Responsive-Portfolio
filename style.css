@@ -24,6 +24,7 @@ color:white;
   
 }
 
+
 .bg-light{
 color:blue;
 }
@@ -38,6 +39,20 @@ text-align: center;
 .nav-link{
 color:black;
 }
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Portfolio file content modifications */
+
+
+.col{
+ padding: 10px;
+ 
+}
+.image{
+  height: 250px;
+  width: 250px;
+}
+
 
 /* ----------------------------------------------------------------------------------- */
 /* Modifies style fo index html file body "main-content" */
