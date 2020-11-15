@@ -43,9 +43,15 @@ color:black;
 /* ---------------------------------------------------------------------------------------------------- */
 /* Portfolio file content modifications */
 
-
+/* Modifies "Portfolio" title div*/
+.portfolio{
+  margin-left: 235px;
+  font-weight: bolder;
+  
+}
 .col{
  padding: 10px;
+ 
  
 }
 .image{
