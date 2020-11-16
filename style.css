@@ -29,6 +29,18 @@ body{
   padding: 0;
 }
 
+/* Modifies footer section for contact, portfolio, and about files */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  display:flex;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* Modifies content specific only to Portfolio (Portfolio page) file  */
 /* -------------------------------------------------------------------------------- */
@@ -57,10 +69,10 @@ body{
 /* Modifies content specific only to index (about page) file  */
 /* -------------------------------------------------------------------------------- */
 
+
 .cold-md-4{
   float: left;
   word-wrap: break-word;
-
 }
 
 /* Modifies "About Me" title */
@@ -84,7 +96,6 @@ body{
 }
 }
  
-
 /* -------------------------------------------------------------------------------- */
 /* Modifies content specific only to contact file  */
 /* -------------------------------------------------------------------------------- */
