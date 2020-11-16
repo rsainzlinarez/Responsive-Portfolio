@@ -3,7 +3,7 @@
 This README file provide information about the purpose of the Bio website where I talk about my self. The reasons for which I am taking the course in order to become a web developer. 
 It also provides information about the services that I would provide not only as a web developer, but also in digital marketing.
 
-![Website Screenshoot]()
+![Website Screenshoot](https://raw.githubusercontent.com/rsainzlinarez/Responsive-Portfolio/main/Screenshot%20aboutme.PNG)
 
 
 ## Use of Boostrap
