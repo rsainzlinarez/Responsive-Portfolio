@@ -29,17 +29,19 @@ body{
   padding: 0;
 }
 
-/* Modifies footer section for contact, portfolio, and about files */
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: gray;
-  text-align: center;
-  display:flex;
-}
+/* Modifies form scalability for samlles devices */
+@media(max-width:450px){
+.navbar-light .navbar-brand{
+    font-size: 15px;
+  }
+
+.navbar-toggler, 
+.navbar-toggler-icon{
+  width:25px;
+  height: 30px;
+  padding: 0;
+  }
+  }
 
 /* -------------------------------------------------------------------------------- */
 /* Modifies content specific only to Portfolio (Portfolio page) file  */
