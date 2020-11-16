@@ -1,85 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+
 </head>
 <body>
+  <!-- navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
+    <!-- navigation bar header title -->
     <a class="navbar-brand " href="./index.html">Ruben Sainz</a>
 
+    <!-- navigation bar hamburger button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
-    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
+    <!-- navigation bar links section -->
+    <section class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- navigation links -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
         </li>
-
         <li class="nav-item active">
-          <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
         </li>
-
         <li class="nav-item dropdown active">
-          <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
-
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+            <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
         </li>
-       
       </ul>
-      
-    </div>
+    </section>
+ 
   </nav>  
+
+  <
   
 
+    <!-- header row for about me title  -->
+    <header class="row row-cols-2"> 
+      <!-- Section for title -->
+      <section class="col about-me">About Me</section>            
+    </header>
 
-        <container class="main-content">
+    <!-- section row for content about me and photo  -->
+    <section class="row row-cols-2">
 
-            <divar class="container">
-                <div class="row row-cols-2">
-                  <div class="col about-me">About Me</div>
-                                    
-                </div>
-                <div class="row row-cols-2">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                          <div class="col-md-4">
-                            <img src="./assets/images/self.jpg" class="card-img" alt="Self-image">
-                          </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                              <p class="card-text">My name is Ruben. I am currently studying web development because I have had a interest in technology, computers, and the cyber space. In today's modern age in society, it is imperative to at least have an understanding about programing in order to keep up with the fast-changing world. Learning how to build websites will open the door to other opportunities that have not explored, therefore, I am very excited to become a web developer and put my skills to work.  </p>
+      <section class="card mb-3" style="max-width: 540px;">
+        
+         <section class="row no-gutters">
 
-                                  <p class="card-text">Some of my hobbies include: workingout, dancing, reading, learning, spending time with friends and family, cooking, and watching movies. </p>
+           <!-- figure contains about me photos -->
+             <figure class="col-md-4">
+                 <img src="./assets/images/self.jpg" class="card-img" alt="Self-image">
+             </figure>
+
+            <!-- section contains article with description about me -->
+            <section class="col-md-8">
+
+                <article class="card-body">
+                              <p class="card-text">My name is Ruben. I am currently studying web development because I have had a interest in technology, computers, and the cyber space. In today's modern age in society, it is imperative to at least have an understanding about programing in order to keep up with the fast-changing world. Learning how to build websites will open the door to other opportunities that have not explored, therefore, I am very excited to become a web developer and put my skills to work.</p>
+
+                              <p class="card-text">Some of my hobbies include: workingout, dancing, reading,  learning, spending time with friends and family, cooking, and watching movies.</p>
 
                               
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+
+                </article>
+            </section>
+
+          </section>
+
+      </section>
                                       
-                  </div>
-              </div>
+    </section>
+     
 
 
-        </container>
-       
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+      <!-- Javascript links for boot strap responsiveness -->
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
 </body>
 </html>
