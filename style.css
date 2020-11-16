@@ -1,65 +1,52 @@
 
 
-/* Modifies background style for index, portfolio, and contact html files*/
+/* -------------------------------------------------------------------------------- */
+/* Modifies content shared by index (about), portfolio, and contact html files*/
+/* -------------------------------------------------------------------------------- */
+
+
+/* Modifies background image */
 body{
 
-background-image: url(./assets/images/background.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
-
-}
-/* ------------------------------------------------------------------------------------------- */
-
-/* Modifies index, portfolio, and contact style for html files */
-
-
-.navbar-brand{
-background-color:rgb(196, 198, 199);
-font-size: 15px;
-margin-left: 35px;
-font-size: 30px;
-color:white;
+  background-image: url(./assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   
 }
 
-
-.bg-light{
-color:blue;
+/* Modifies navigation bar shared by index (about), portfolio, and contact style for html files */
+.navbar-light .navbar-brand{
+  background-color:rgb(105, 110, 112);
+  margin-left: 35px;
+  font-weight: bolder;
+  color:white;
+  font-size: 30px;
 }
 
-
-/* Modifies navigation links menu */
+/* Modifies navigation contact, portfolio, and about links */
 .nav-item{
-text-align: center;
-
-
-}
-.nav-link{
-color:black;
+  text-align: center;
+  font-size: 25px;
+  padding: 0;
 }
 
-/* ---------------------------------------------------------------------------------------------------- */
-/* Portfolio file content modifications */
+/* -------------------------------------------------------------------------------- */
+/* Modifies content specific only to Portfolio (Portfolio page) file  */
+/* -------------------------------------------------------------------------------- */
 
 /* Modifies "Portfolio" title div*/
 .portfolio{
   margin-left:-20px;
   margin-right: 20px;
-  
   font-size: 50px;
   font-weight: bolder;
-
   padding: 0;
-  
 }
 
 /* Modifies Portfolio images section */
 .portfolio-images{
- padding: 20px;
- 
- 
+  padding: 20px;
 }
 
 /* modifies the images included in the portfolio images section */
@@ -68,35 +55,34 @@ color:black;
   width: 250px;
 }
 
-
-/* ----------------------------------------------------------------------------------- */
-/* Modifies style fo index html file body "main-content" */
-
+/* -------------------------------------------------------------------------------- */
+/* Modifies content specific only to index (about page) file  */
+/* -------------------------------------------------------------------------------- */
 
 .cold-md-4{
-float: left;
-word-wrap: break-word;
+  float: left;
+  word-wrap: break-word;
 
 }
 
 /* Modifies "About Me" title */
 .col{
-font-size: 50px;
-font-weight: 500;
-padding-left: 0;
+  font-size: 50px;
+  font-weight: 500;
+  padding-left: 0;
 }
 
 /* Modifies photo and bio description section */
 .row-cols-2{
-margin-left: 35%;
-margin-top:2%;
+  margin-left: 35%;
+  margin-top:2%;
 }
 
 
 
-/* ------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
 /* Modifies contact file */
-
+/* -------------------------------------------------------------------------------- */
 
 /* Mofidies contact form */
   .form-section{
@@ -108,14 +94,12 @@ margin-top:2%;
     margin-right:30%;
     font-weight: bold;
     padding: 0;
-    
- 
   }
+  
+  /* Modifies contact title for the form */
   .form-title{
     font-size: 50px;
     font-weight: bold;
-    
-    
   }
 
   @media(max-width:450px){
