@@ -10,65 +10,59 @@
 </head>
 <body>
 
-
+<!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
+    <!-- Navigation bar header title -->
     <a class="navbar-brand " href="./index.html">Ruben Sainz</a>
 
+    <!-- Navigation bar hamburger button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
-    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
+    <!-- Navigation bar links section -->
+    <section class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navigation links -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
         </li>
-
         <li class="nav-item active">
-          <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
         </li>
-
         <li class="nav-item dropdown active">
-          <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
-
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+            <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
         </li>
-       
       </ul>
-      
-    </div>
+    </section>
+ 
   </nav>  
   
-  
-  <div class="container" class= "photos">
-    
-      <div class="row row-cols-12 portfolio">Portfolio</div>
-        
-                          
-      
-                          
-      
-    <div class="row row-cols-12">
-      <div class="col portfolio-images"><img class="image" src="./assets/images/lion.jpg" class="rounded mx-auto d-block" alt="..."></div>
-      <div class="col portfolio-images"><img class="image" src="./assets/images/land.jpg" class="rounded mx-auto d-block" alt="..."></div>
-      <div class="col portfolio-images"><img class="image" src="./assets/images/land1.jpg" class="rounded mx-auto d-block" alt="..."></div>
-      <div class="col portfolio-images"><img  class="image" src="./assets/images/land2.jpg" class="rounded mx-auto d-block" alt="..."></div>
-      <div class="col portfolio-images"><img  class="image" src="./assets/images/land3.jpg" class="rounded mx-auto d-block" alt="..."></div>
-    </div>
-  </div>
+  <!-- Main container for portfolio photos -->
+  <main class="container" class= "photos">
 
+      <!--Portfolio header -->
+      <header class="row row-cols-12 portfolio">Portfolio</header>  
+                                        
+      <!-- Portfolio Photos -->
+    <section class="row row-cols-12">
+      <figure class="col portfolio-images"><img class="image" src="./assets/images/lion.jpg" class="rounded mx-auto d-block" alt="..."></figure>
+      <figure class="col portfolio-images"><img class="image" src="./assets/images/land.jpg" class="rounded mx-auto d-block" alt="..."></figure>
+      <figure class="col portfolio-images"><img class="image" src="./assets/images/land1.jpg" class="rounded mx-auto d-block" alt="..."></figure>
+      <figure class="col portfolio-images"><img  class="image" src="./assets/images/land2.jpg" class="rounded mx-auto d-block" alt="..."></figure>
+      <figure class="col portfolio-images"><img  class="image" src="./assets/images/land3.jpg" class="rounded mx-auto d-block" alt="..."></figure>
+      </section>
 
+    </main>
 
- 
+    <!-- Javascript links for boot strap responsiveness -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
+
+
+</footer>
 </html>
