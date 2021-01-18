@@ -164,7 +164,7 @@ color:green;
 /* Modifies contact information Section */
 .contact-info{
 
-  position:absolute;
+
   color:white;
   width: 40%;
   padding-left: 50px;
@@ -188,7 +188,7 @@ color:green;
     padding-left: 50px;
     background-color: none;
     margin-left: 50%;
-    margin-top: 0%;
+   
     /* margin-right:20%; */
     font-weight: bold;
     /* padding: 0; */

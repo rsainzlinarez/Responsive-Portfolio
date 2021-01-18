@@ -81,51 +81,52 @@
       <label for="exampleFormControlTextarea1">GitHub</label> <br>
       <a class = " download-link" href="https://github.com/rsainzlinarez" download="newfilename">GitHub Profile</a>
     </section>
-</form>
 
-<!-- --------------------------------------------Contact Us Section--------------------------------------------------- -->
-    <!-- form provided a section for form title -->
-    <form class= "form-section" class= "form-title"> 
-      <!-- Section contains "contact" header -->
+
+
+    <!-- -------------------------------------------------------------------------------- -->
+     <!-- Section contains "contact" header -->
+     <section class="form-group">
+      <h2 class= "form-title">Contact Us</h2>
+    </section>
+
+    <!-- contact information form -->
+    <form class= "form-section">
       <section class="form-group">
-        <h2 class= "form-title">Contact Us</h2>
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
+      </section>
+      <section>
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </section>
 
-      <!-- contact information form -->
-      <form class= "form-section">
-        <section class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
-        </section>
-        <section>
-          <label for="exampleFormControlInput1">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </section>
+      <!-- services drop down menu selector -->
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Services</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Digital Marketing</option>
+          <option>Website Creation and Maintenance</option>
+          <option>Content Creation</option>
+          <option>Copywriting</option>
+          <option>Trainings and Seminars</option>
+        </select>
+      </div>
 
-        <!-- services drop down menu selector -->
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Services</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>Digital Marketing</option>
-            <option>Website Creation and Maintenance</option>
-            <option>Content Creation</option>
-            <option>Copywriting</option>
-            <option>Trainings and Seminars</option>
-          </select>
-        </div>
+      <!-- message box input -->
+      <section class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+      </section>
 
-        <!-- message box input -->
-        <section class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
-        </section>
+      <!-- Form submit button -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
-        <!-- Form submit button -->
-        <button type="submit" class="btn btn-primary">Submit</button>
-
-     </form>
+<!-- --------------------------------------------Contact Us Section---------------------------------------------------
   
-       <!-- javascript links for boot strap responsiveness -->
+  
+       <!-javascript links for boot strap responsiveness -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     </form>
@@ -139,7 +140,7 @@
             <a class = " download-link" href="https://github.com/rsainzlinarez" download="newfilename">GitHub</a>
           </div>
           <div class = "col-md-2">
-            <a class = " download-link" href="./index.html" download="newfilename">Contact</a>
+            <a class = " download-link" href="./contact.html" download="newfilename">Contact</a>
         </div>
         
     </footer>
