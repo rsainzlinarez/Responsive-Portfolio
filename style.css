@@ -10,7 +10,12 @@ body{
   background-image: url(./assets/images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  position:sticky;
   background-size: cover;
+}
+.navigation-bar{
+background-color: red;
+
 }
 
 /* Modifies navigation bar shared by index (about), portfolio, and contact style for html files */
@@ -43,17 +48,38 @@ body{
   }
   }
 
+
 /* -------------------------------------------------------------------------------- */
 /* Modifies content specific only to Portfolio (Portfolio page) file  */
 /* -------------------------------------------------------------------------------- */
+ /* Modifies portfolio title*/
+/* .portfolio-title{
+  color: white;
+
+} */
 
 /* Modifies "Portfolio" title div*/
+
+.portfolioCard{
+background-color: transparent;
+color: white;
+margin:10px;
+font-weight:600;
+
+}
+
+.card-link{
+color:green;
+
+}
+
 .portfolio{
   margin-left:-20px;
   margin-right: 20px;
   font-size: 50px;
   font-weight: bolder;
   padding: 0;
+  color: white;
 }
 
 /* Modifies Portfolio images section */
@@ -65,6 +91,12 @@ body{
 .image{
   height: 250px;
   width: 250px;
+}
+
+.footer{
+background-color: navy;
+color: oldlace;
+height: 50px;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -112,6 +144,7 @@ body{
     margin-right:30%;
     font-weight: bold;
     padding: 0;
+
   }
   
   /* Modifies contact title for the form */
