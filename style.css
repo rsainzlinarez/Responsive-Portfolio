@@ -7,23 +7,33 @@
 /* Modifies background image */
 body{
 
-  background-image: url(./assets/images/background.jpg);
+  background-image: url(https://wallpaperaccess.com/full/2454628.png);
   background-repeat: no-repeat;
   background-position: center;
   position:sticky;
   background-size: cover;
 }
-.navigation-bar{
-background-color: red;
 
+/* Modifies navigation bar */
+.navigation-Bar{
+background-color: transparent;
+border-radius: 100px;
+border-bottom: solid;
+color:turquoise;
+
+}
+/* Modifies navigation bar links */
+.navLink{
+  color:turquoise;
+  padding: 5px;
 }
 
 /* Modifies navigation bar shared by index (about), portfolio, and contact style for html files */
 .navbar-light .navbar-brand{
-  background-color:rgb(105, 110, 112);
+  
   margin-left: 35px;
   font-weight: bolder;
-  color:white;
+  color:turquoise;
   font-size: 30px;
 }
 
@@ -33,6 +43,19 @@ background-color: red;
   font-size: 25px;
   padding: 0;
 }
+
+/* Modifies footer */
+.footer{
+  color: oldlace;
+  border-top:solid;
+  border-color:turquoise;
+  border-radius: 100px;
+  /* height: 30px; */
+  width: 100%;
+  margin-left: 10px;
+  
+  
+  }
 
 /* Modifies form scalability for samlles devices */
 @media(max-width:450px){
@@ -52,17 +75,12 @@ background-color: red;
 /* -------------------------------------------------------------------------------- */
 /* Modifies content specific only to Portfolio (Portfolio page) file  */
 /* -------------------------------------------------------------------------------- */
- /* Modifies portfolio title*/
-/* .portfolio-title{
-  color: white;
-
-} */
 
 /* Modifies "Portfolio" title div*/
 
 .portfolioCard{
 background-color: transparent;
-color: white;
+color: turquoise;
 margin:10px;
 font-weight:600;
 
@@ -72,14 +90,15 @@ font-weight:600;
 color:green;
 
 }
-
+/* Modifies portfolio projects section */
 .portfolio{
   margin-left:-20px;
   margin-right: 20px;
-  font-size: 50px;
+  margin-top: 25px;
+  font-size: 25px;
   font-weight: bolder;
   padding: 0;
-  color: white;
+  color: turquoise;
 }
 
 /* Modifies Portfolio images section */
@@ -93,20 +112,28 @@ color:green;
   width: 250px;
 }
 
-.footer{
-background-color: navy;
-color: oldlace;
-height: 50px;
-}
-
 /* -------------------------------------------------------------------------------- */
 /* Modifies content specific only to index (about page) file  */
 /* -------------------------------------------------------------------------------- */
+.cardImage{
+  height: 200px;
+  width: 190px;
+  margin-left: 20px;
+}
+.about-me{
+  color:white;
+}
 
+.aboutMeCard{
+  background-color: transparent;
+  color: white;
+}
 
 .cold-md-4{
   float: left;
   word-wrap: break-word;
+
+
 }
 
 /* Modifies "About Me" title */
@@ -131,11 +158,12 @@ height: 50px;
 }
  
 /* -------------------------------------------------------------------------------- */
-/* Modifies content specific only to contact file  */
+/* Modifies content specific only to contact page  */
 /* -------------------------------------------------------------------------------- */
 
 /* Modifies contact information Section */
 .contact-info{
+
   position:absolute;
   color:white;
   width: 40%;
@@ -143,10 +171,12 @@ height: 50px;
   background-color: none;
   margin-left: 10px;
   margin-top: 0%;
-  /* margin-right:20%; */
   font-weight: bold;
-  /* padding: 0; */
+}
 
+/*Modifies link to download Resume  */
+.download-link{
+  color:green;
 }
 
 

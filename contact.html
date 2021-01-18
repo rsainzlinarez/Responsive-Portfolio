@@ -12,78 +12,92 @@
 
 </head>
 <body>
+  <!-- ------------------------------------Navigation Bar Section--------------------------------------------------- -->
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class=" navigation-Bar navbar navbar-expand-lg navbar-light ">
 
-    <!-- Navigation bar header title -->
+    <!-- navigation bar header title -->
     <a class="navbar-brand " href="./index.html">Ruben Sainz</a>
 
-    <!-- Navigation bar hamburger button -->
+    <!-- navigation bar hamburger button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <!-- Navigation bar links section -->
+    <!-- navigation bar links section -->
     <section class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <!-- Navigation links -->
-      <ul class="navbar-nav ml-auto contact-card">
+      <!-- navigation links -->
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-            <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+            <a class="navLink" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="navLink" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown active">
-            <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+            <a class="navLink" href="./index.html">About<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </section>
  
   </nav> 
-<!----------------------------------------------------------------- -->
+
+<!----------------------------------------Contact Information Section---------------------------------------------- -->
 <form class= "contact-info ">
+
+  <section class="form-group">
+    <h2 class= "form-title">Contact Info</h2>
+  </section>
+
   <section class="form-group">
       <label for="exampleFormControlInput1">Name</label>
-      <h5>Ruben Sainz</h5>
+      <P>Ruben Sainz</P>
 
     </section>
       <label for="exampleFormControlInput1">Email</label>
-      <h6>rsainzlinarez@gmail.com</h6>
+      <p>rsainzlinarez@gmail.com</p>
   </section>
 
     <!-- services drop down menu selector -->
     <div class="form-group">
       <label for="exampleFormControlSelect1">Phone Number</label>
-      <h6>(971) 239-6016</h6>
+      <p>(971) 239-6016</p>
     </div>
 
     <!-- message box input -->
     <section class="form-group">
       <label for="exampleFormControlTextarea1">Resume</label> <br>
-      <a href="./directory/yourfile.pdf" download="newfilename">Download the pdf</a>
+      <a class = " download-link" href="./assets/Resume.pdf" download="newfilename">Download Resume</a>
+    </section>
+
+    <section class="form-group">
+      <label for="exampleFormControlTextarea1">LinkedIn</label> <br>
+      <a class = " download-link" href="https://www.linkedin.com/in/ruben-s-906bb68b/" download="newfilename">LinkedIn Profile</a>
+    </section>
+
+    <section class="form-group">
+      <label for="exampleFormControlTextarea1">GitHub</label> <br>
+      <a class = " download-link" href="https://github.com/rsainzlinarez" download="newfilename">GitHub Profile</a>
     </section>
 </form>
 
-<!-- ------------------------------------------------------------- -->
-
-
-
+<!-- --------------------------------------------Contact Us Section--------------------------------------------------- -->
     <!-- form provided a section for form title -->
     <form class= "form-section" class= "form-title"> 
       <!-- Section contains "contact" header -->
       <section class="form-group">
-        <h2 class= "form-title">Contact</h2>
+        <h2 class= "form-title">Contact Us</h2>
       </section>
 
       <!-- contact information form -->
-    <form class= "form-section">
+      <form class= "form-section">
       <section class="form-group">
           <label for="exampleFormControlInput1">Name</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
         </section>
-
+      <section>
           <label for="exampleFormControlInput1">Email</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 
@@ -110,11 +124,25 @@
         <!-- Form submit button -->
         <button type="submit" class="btn btn-primary">Submit</button>
 
-    </form>
-      
+     </form>
+  
        <!-- javascript links for boot strap responsiveness -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-      </form>
+    </form>
+      
 </body>
+<footer class = footer-section>
+  <div class = "row text-center footer">
+      <div class = "col-md-2">
+        <a class = " download-link" href="https://www.linkedin.com/in/ruben-s-906bb68b/" download="newfilename">LinkedIn</a>
+      </div>
+      <div class = "col-md-2">
+        <a class = " download-link" href="https://github.com/rsainzlinarez" download="newfilename">GitHub</a>
+      </div>
+      <div class = "col-md-2">
+        <a class = " download-link" href="./contact.html" download="newfilename">Contact</a>
+    </div>
+    
+</footer>
 </html>
