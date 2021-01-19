@@ -45,7 +45,7 @@ color:turquoise;
 }
 
 /* Modifies footer */
-.footer{
+.footer-section{
   color: oldlace;
   border-top:solid;
   border-color:turquoise;
@@ -187,11 +187,9 @@ color:green;
     width: 40%;
     padding-left: 50px;
     background-color: none;
-    margin-left: 50%;
-   
-    /* margin-right:20%; */
+    margin-left: 0%;
     font-weight: bold;
-    /* padding: 0; */
+    
 
   }
   
