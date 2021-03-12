@@ -68,7 +68,12 @@ color:turquoise;
   width:25px;
   height: 30px;
   padding: 0;
+  background-color: white;
   }
+  .collapsed{
+    background-color:white;
+  }
+
   }
 
 
